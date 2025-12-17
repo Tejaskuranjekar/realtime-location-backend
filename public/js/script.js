@@ -1,3 +1,5 @@
+alert("script.js loaded");
+
 const socket = io("https://YOUR-BACKEND-URL.onrender.com");
 
 
