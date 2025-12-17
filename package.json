@@ -1,17 +1,18 @@
 {
-  "name": "realtimetracker",
+  "name": "realtime-location-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real-time location tracking backend using Express and Socket.IO",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["realtime", "socket.io", "express", "location-tracking"],
+  "author": "Tejas",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^5.2.1",
-    "socket.io": "^4.8.1"
+    "express": "^4.19.2",
+    "socket.io": "^4.8.1",
+    "ejs": "^3.1.10"
   }
 }
+
